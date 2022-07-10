@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 25px;
+}
+
+header {
+  border-bottom: 20px solid rgba(88, 88, 84, 0.8);
+  border-image: repeating-linear-gradient( 45deg, transparent, transparent 5px, grey 3px, grey 6px) 15;
+  padding-bottom: 25px;
+}
+
+#header-left {
+  display:inline-block;
+}
+#header-left div{
+  float: left;
+  padding-left: 10px;
+}
+
+#header-left h1 {
+  font-family: 'Playball', cursive;
+  font-size: 25px;
+}
+
+#header-left p {
+  font-size: 5px;
+}
+
+#header-left img {
+  float: left;
+  width: 40px;
+}
+
+#header-right{
+  float: right;
+}
+
+#rss-email {
+  float:right;
+  margin-left: 10px;
+}
