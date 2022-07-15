@@ -4,8 +4,8 @@
 
 body {
   margin: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 450px;
+  margin-right: 450px;
 }
 
 header {
@@ -43,4 +43,62 @@ header {
 #rss-email {
   float:right;
   margin-left: 10px;
+}
+
+#main-content-header {
+  margin-top: 50px;
+  display:block;
+  margin-bottom: 25px;
+  position:relative;
+}
+
+#main-content-header > div > h1{
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#main-content-header div:first-child{
+  display:inline-block;
+}
+
+#main-content-header div:nth-child(2){
+  float: right;
+  /* position:absolute; */
+}
+
+#main-content-header div:nth-child(2) > p {
+  float: right;
+  text-decoration: #aca9ad;
+}
+
+#main-content {
+  position: relative;
+}
+
+#main-content img {
+  width: 100%;
+}
+
+#main-content-recipe > p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#main-content-list {
+  position:relative;
+}
+
+#main-content-ingredients-left{
+  position:absolute;
+  top: 15%;
+  left: 5%;
+}
+
+#main-content-ingredients-left > div{
+  padding-bottom: 10px;
+}
+
+.step:checked + label{
+  text-decoration: line-through;
 }
